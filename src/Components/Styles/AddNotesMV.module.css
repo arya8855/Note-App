@@ -1,0 +1,122 @@
+.MnotesPopup{
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    width: 68vw;
+    height: 26vh;
+    background-color: #fff;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    transform: translate(-50%, -50%);
+    z-index: 1000;
+}
+.Mnotes{
+   font-size: 1.6rem;
+   font-weight: 600;
+   margin-bottom: 30px;
+   text-align: left;
+   width: 100%;
+}
+.Maddnotes{ 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    gap: 8px;
+    width: 100%;
+    margin-bottom: 30px;
+    /* font-size: 1rem;
+    font-weight: 600; */
+}
+.MgroupName{
+    font-size: 1rem;
+    font-weight: 600;
+}
+.Maddnotes input{
+    flex: 1;
+    width: 38vw;
+    height: 35px;
+    border: 1.5px solid #ccc;
+    border-radius: 20px;
+    padding: 0 12px;
+    font-size: 0.95rem;
+    font-weight: 400;
+    outline: none;
+}
+.MerrorText{
+    color: red;
+    font-size: 9px;
+    position: absolute;
+    top: 16vw;
+    right: 9vw;
+}
+.Mchoosecolor{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 100%;
+    /* gap: 8px; */
+    
+}
+.Mchoosecolor span{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-right: -70px;
+}
+.McolorOptions{
+    display: flex;
+    gap: 9px;
+    flex-wrap: wrap;
+    position: absolute;
+    margin-left: 27vw;
+}
+.Moption1,
+.Moption2,
+.Moption3,
+.Moption4,
+.Moption5,
+.Moption6{
+    width: 5vw;
+    height: 5vw;
+    border-radius: 50%;
+    cursor: pointer;
+    border: none;
+    background-color: black;
+}
+.Moption1{
+    background-color: #B38BFA;
+}
+.Moption2{
+    background-color: #FF79F2;
+}
+.Moption3{
+    background-color: #43E6FC;
+}
+.Moption4{
+    background-color: #F19576;
+}
+.Moption5{
+    background-color: #0047FF;
+}
+.Moption6{
+    background-color: #6691FF;
+}
+.MclosePopup{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.McreateBtn{
+    width:200px;
+    height: 32px;
+    border-radius: 0.5rem;
+    background-color: #16008B;
+    color: white;
+    font-weight: 500;
+    font-size: 1rem;
+    margin-top: 50px;
+}

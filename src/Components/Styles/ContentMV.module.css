@@ -1,0 +1,42 @@
+.McontentContainer{
+  width: 89vw;
+  height: auto;
+  min-height: 17vh;
+  border-radius: 0.2rem;
+  background-color: white;
+  margin-top: 4vw;
+  margin-left: 5vw;
+  position: relative;
+  display: flex;
+  justify-content: flex-start;
+  box-shadow: rgba(103, 102, 102, 0.74);
+
+}
+.Mnotes_content{
+    width: 86vw;
+    height: auto;
+    line-height: 1.5rem;
+    text-align: left;
+    color:#555;
+    margin: 20px 20px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    font-weight: 500;
+}
+.Mtime_details{
+  position: absolute;
+  bottom: 2vw;               
+  right: 6vw;               
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.9rem;
+  font-weight: 500;
+  color: #555;
+}
+.Mtime,.Mdate{
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+}

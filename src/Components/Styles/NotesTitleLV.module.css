@@ -1,0 +1,28 @@
+.groupTitleLogo{
+    border-radius: 1rem;
+    height: 15vh;
+    width: 23vw;
+    color: black;
+    display: flex;
+    justify-content: flex-start;
+    gap: 2vw;
+    align-items: center;
+    padding-left: 3vw;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.titleLogo{
+    height: 69px;
+    width: 69px;
+    border-radius: 50%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+.groupTitleLogo:hover{
+    background-color: #f0f0f0;
+}

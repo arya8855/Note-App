@@ -1,0 +1,64 @@
+.sidePanel {
+    width: 21vw;
+    height: 100vh;
+    position: relative;
+}
+.title{
+    font-size: 2rem;
+    font-weight: 600;
+    margin: 3vw 2vw;
+    text-align: center;
+}
+.add-btn{ 
+    position: absolute; 
+    bottom: 2vw;       
+    right: 2vw;        
+    border: none;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
+    background-color: #16008B;
+    font-size: larger;
+    color: white;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.popup_overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+} 
+#add-note {
+    font-size: 75px;
+    font-weight: 500;
+}
+.notes-title{
+    flex: 1;
+    overflow-y:auto;
+    overflow-x: hidden;
+    max-height: calc(100vh - 240px); 
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+    position: relative;
+    
+}
+.notes-title-scrollbar {
+    width: 8px;
+}
+.notes-title-scrollbar-track {
+    background: #888;
+    border-radius: 4px;
+}
+.notes-title-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+.notes-title-scrollbar-thumb:hover {
+    background: #555;
+}

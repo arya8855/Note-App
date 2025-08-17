@@ -1,0 +1,94 @@
+.notes{
+    width: 80vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+}
+.notesTitle{
+    width: 79vw;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #001F8B;
+    color:white;
+    font-size: 20px;
+    font-weight: 400;
+    gap: 10px;
+}
+.notesTitleIcon{
+    width: 69px;
+    height: 69px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+    border-radius: 50%;
+    margin: 15px;
+    flex-shrink: 0;
+    
+}
+.notesTitleText{
+    width:79vw;
+    height: 14vh;
+    display: flex;
+    align-items: center;
+}
+.notesContent{
+    flex: 1; 
+    overflow-y: auto;
+    overflow-x: hidden;
+    background-color: #DAE5F5;
+    gap: 10px;
+    width: 79vw;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}   
+.notesContent::-webkit-scrollbar {
+    width: 8px;
+}
+.notesContent::-webkit-scrollbar-track {
+    background: #888;
+}
+.notesContent::-webkit-scrollbar-thumb {
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+.notesContent::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.notesInput{
+    width: 79vw;
+    height: 25vh;
+    background-color:#001F8B;
+    /* position: fixed; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    bottom: 0;
+    border-bottom-left-radius: 0.5rem;
+}
+.notesInput textarea{
+    width:75vw;
+    height: 18vh;
+    background-color: #FFFFFF;
+    border-radius: 0.5rem;
+    padding: 1vh;
+    resize: none;
+    font-size: large;
+    border: none;
+    outline: none;
+}
+.notesInput img{
+    position: absolute;
+    margin-left: 70vw;
+    margin-bottom: -2vw;
+    bottom: 4rem;
+    width: 20px;
+    height: 20px;
+    
+}

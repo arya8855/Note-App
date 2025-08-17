@@ -1,0 +1,33 @@
+.home{
+    width: 75vw;
+    height: 100vh;
+    background-color: #DAE5F5;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 2rem;
+}
+
+.homeImg{
+    margin-top: 15vh;
+    width: 35vw;
+    height: 35vh;
+}
+.home h1,p{
+    margin:0;
+    font-weight: 600;
+    /* font-size: 2rem; */
+}
+.lockIcon{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    font-size: 0.8rem;
+    margin-top: 10vh;
+    font-weight: 500;
+}
+.lockIconImg{
+    width: 1.5rem;
+    height: 1.5rem;
+}

@@ -1,0 +1,100 @@
+.M_notes{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    width: 100vw;
+}
+.M_notesTitle{
+    height: 9vh;
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    font-size: 20px;
+    background-color:#001F8B;
+    color: white;
+    font-weight: 400;
+    position: relative;
+    top: 0;
+    z-index: 1;
+    gap: 10px;
+}
+.M_notesTitle img{
+    height: 11.6px;
+    width: 15.5px;
+    margin-left: 15px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.MnotesTitleIcon{
+    height: 58px;
+    width: 58px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    font-size: 20px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.MnotesTitleText{
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    font-weight: 400;
+    margin-left: 10px;
+}
+.MnotesContent{
+    overflow-y: scroll;
+    overflow-x: hidden;
+    width: 100vw;
+    height: 100vh;
+    gap: 10px;
+    background-color: #DCE7F7;
+    scrollbar-width: thin;
+    scrollbar-color: #888 #f1f1f1;
+}
+.MnotesContent ::-webkit-scrollbar{
+    width: 8px;
+}
+.MnotesContent ::-webkit-scrollbar-track{
+    background: #888;
+}
+.MnotesContent ::-webkit-scrollbar-thumb{
+    background: #f1f1f1;
+    border-radius: 4px;
+}
+.MnotesContent ::-webkit-scrollbar-thumb:hover{
+    background: #555;
+}
+.MnotesInput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 15vh;
+    width: 100vw;
+    background-color: #001F8B;
+    position: fixed;
+    bottom: 0
+}
+.MnotesInput textarea{
+    border: none;
+    outline: none;
+    border-radius: 1vh;
+    font-size: large;
+    padding: 1vh;
+    height: 10vh;
+    width: 85vw;
+    resize: none;
+}
+.MnotesInput img{
+    position: absolute;
+    bottom: 5vh;
+    right: 4vh;
+    width: 20px;
+    height: 20px;
+}

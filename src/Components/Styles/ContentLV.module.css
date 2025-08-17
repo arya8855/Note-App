@@ -1,0 +1,53 @@
+.contentContainer{
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    border-radius: 0.2rem;
+    width: 75.5vw;
+    height: auto;
+    min-height: 23vh;
+    gap:1rem;
+    background-color: white;
+    box-shadow: rgba(128, 128, 128, 0.74);
+    margin-left: 1.4vw;
+    margin-top: 1vw;
+    /* margin-right: 30px; */
+}
+.time_details{
+  position: absolute;
+  bottom: 8px;               
+  right: 12px;               
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #555;
+
+}
+.time, .date{
+    font-size: 12px;
+    font-weight: 500;
+    white-space: nowrap;
+    
+}
+.time_details span{
+    font-size: 1.2rem;
+    color: #555;
+    line-height: 0;
+    
+}
+.notes_content{
+    width: 73vw;
+    height:auto;
+    text-align: left;
+    color: #555;
+    margin: 10px 10px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    line-height: 1.5;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
