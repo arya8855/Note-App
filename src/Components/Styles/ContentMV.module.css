@@ -4,16 +4,16 @@
   min-height: 17vh;
   border-radius: 0.2rem;
   background-color: white;
-  margin-top: 4vw;
-  margin-left: 5vw;
+  margin: 4vw auto;
   position: relative;
   display: flex;
-  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
   box-shadow: rgba(103, 102, 102, 0.74);
 
 }
 .Mnotes_content{
-    width: 86vw;
+    width: 100%;
     height: auto;
     line-height: 1.5rem;
     text-align: left;

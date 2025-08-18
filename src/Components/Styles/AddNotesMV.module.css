@@ -2,8 +2,11 @@
     position: fixed;
     top: 50%;
     left: 50%;
-    width: 68vw;
-    height: 26vh;
+    width: 70%;
+    max-width: 400px;
+    min-width: 280px;
+    height: auto;
+    max-height: 80vh;
     background-color: #fff;
     border-radius: 10px;
     display: flex;
@@ -59,20 +62,18 @@
     flex-direction: row;
     align-items: flex-start;
     width: 100%;
-    /* gap: 8px; */
+    
     
 }
 .Mchoosecolor span{
     font-size: 1rem;
     font-weight: 500;
-    margin-right: -70px;
+    margin-right: 10px;
 }
 .McolorOptions{
     display: flex;
     gap: 9px;
     flex-wrap: wrap;
-    position: absolute;
-    margin-left: 27vw;
 }
 .Moption1,
 .Moption2,
