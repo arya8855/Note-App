@@ -92,7 +92,7 @@
     resize: none;
 }
 .MnotesInput img{
-    position: absolute;
+    position: fixed;
     bottom: 5vh;
     right: 4vh;
     width: 20px;

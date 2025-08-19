@@ -109,16 +109,7 @@ function NotesMV() {
       </div>
       
        <div className={styles.MnotesContent}>
-        {/* {notes.length === 0 ? (
-          <div className={styles.notesPage} 
-          style={{backgroundImage: `url(${home})`}}></div>
-        ) : (
-          <div>
-            {notes.map((note,index) => (
-            <ContentMV key={index} note={note}/>
-            ))} 
-          </div> 
-        )} */}
+      
         {notes && notes.length > 0 ? notes.map((note, index) => (
               <ContentMV
                 key={index}
@@ -135,7 +126,7 @@ function NotesMV() {
           placeholder='Type your notes here...'
           onChange={handleChange}
           onKeyDown={handleTextChange}></textarea>
-          <img src={enter} alt="enter" onChange={handleSaveNote} />
+          <img src={enter} alt="enter" onClick={handleSaveNote} />
       </div>
     </div>
   );
